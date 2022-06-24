@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courier New', Courier, monospace;   
+    font-size: 20px;
+    width: 30rem;
+    text-align: center;
+
+}
+
+body{
+    background: #2f4f4f
+
+}
+
+.container {
+    margin-top: 7em;
+    margin-left: 15em;
+    height: 260px;
+    width: 610px;
+    border: 2px solid black;
+    padding: 60px;
+    background: #00ffff;
+
+/*    background: #2f4f4f;*/
+}
+
+.titulo{
+    margin-top: 1px;
+    height: 20px;    
+    text-align: center;
+
+}
+
+.formMatricula{
+    height: 4em;
+    
+}
+
+
+.formdata_hora{
+    height: 2em;
+    
+}

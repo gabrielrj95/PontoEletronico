@@ -1,0 +1,8 @@
+CREATE TABLE  `pontoeletronico`(
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `MATRICULA` int(10) NOT NULL,
+  `HORARIO` datetime DEFAULT NULL,
+  `TIPO` int(5),
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `MATRICULA` (`MATRICULA`)
+);
